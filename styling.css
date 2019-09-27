@@ -1,0 +1,21 @@
+*, *:after, *:before{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+.welcome_container{
+    display: flex;
+    justify-content: center;
+}
+.welcome_image{
+    max-width: 90%;
+}
+.flag_container{
+    position: absolute;
+    top: 2%;
+    right: 6.5%;
+}
+.flag_image{
+    max-width: 110px;
+}

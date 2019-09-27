@@ -1,0 +1,21 @@
+*, *:after, *:before{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+.ingredients_container{
+    display: flex;
+    justify-content: center;
+}
+.ingredients{
+    max-width: 90%;
+}
+.back_container{
+    position: absolute;
+    bottom: 6%;
+    right: 14%;
+}
+.back{
+    max-width: 180px;
+}

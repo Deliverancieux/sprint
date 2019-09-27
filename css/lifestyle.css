@@ -1,0 +1,38 @@
+*, *:after, *:before{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100%;
+}
+.option_container{
+    max-width: 90%;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    margin-top: 30px;
+    padding: 10%;
+    margin-left: 5%;
+}
+.option{
+    max-width: 300px;
+    margin: 50px;
+}
+.background{
+    max-width: 90%;
+    position: absolute;
+}
+.background_container{
+    display: flex;
+    justify-content: center;
+}
+.back_container{
+    position: absolute;
+    bottom: 6%;
+    right: 14%;
+}
+.back{
+    max-width: 180px;
+}
